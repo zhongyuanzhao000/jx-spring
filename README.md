@@ -1,2 +1,2 @@
 # jx-spring
-ncgoc
+nc
