@@ -1,4 +1,4 @@
 # jx-spring
 ## nginx
 anogxvrhdss
-nvo nco
+nvo nco niconico
