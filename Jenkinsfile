@@ -15,7 +15,7 @@ pipeline {
                 echo "Clone Successful"
         }
       }
-      stage('Package & skip Test') {
+      stage('Build') {
         steps {
           echo "Build..."
           sh 'mvn clean package -DskipTests'
