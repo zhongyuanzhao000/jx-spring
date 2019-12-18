@@ -11,6 +11,7 @@ pipeline {
       stage('Package & skip Test') {
         steps {
           echo "2.Package Stage"
+	  sh 'source /etc/profile'
           sh 'mvn clean package -DskipTests'
         }
       }
